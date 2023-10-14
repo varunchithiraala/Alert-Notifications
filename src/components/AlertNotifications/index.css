@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.alert-notifications-app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-notifications-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .alert-notifications-container {
+    width: 85%;
+    max-width: 1110px;
+  }
+}
+
+.alert-notifications-heading {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .alert-notifications-heading {
+    font-size: 48px;
+  }
+}
+
+.icon {
+  height: 70px;
+  min-width: 30px;
+  margin-left: 14px;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+.notification-container {
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.notification-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-heading {
+    font-size: 24px;
+  }
+}
+
+.notification-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-heading {
+    font-size: 20px;
+  }
+}
